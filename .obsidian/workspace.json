@@ -8,27 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75e23f85ee2e3b7a",
+            "id": "a4d6230dae7e5c69",
+            "type": "leaf",
+            "state": {
+              "type": "web-browser-view",
+              "state": {
+                "url": "https://leetcode.cn/problems/design-linked-list/"
+              },
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b2bc6e92483c8650",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 计算机网络/第3章 数据链路层.md",
+                "file": "1 数据结构/第2章 线性表.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "第2章 线性表"
             }
           },
           {
             "id": "65cece39709461ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "1 数据结构/王道数据结构.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "王道数据结构"
+            }
+          },
+          {
+            "id": "7cfb474a376fbdc6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "1 数据结构/王道数据结构.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "王道数据结构"
             }
           }
         ],
@@ -51,8 +77,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -61,13 +90,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#技巧",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -75,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -98,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "1 数据结构/第2章 线性表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +139,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "第2章 线性表 的反向链接列表"
             }
           },
           {
@@ -115,10 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "1 数据结构/第2章 线性表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "第2章 线性表 的出链列表"
             }
           },
           {
@@ -128,8 +165,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -138,41 +179,72 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              }
+                "file": "1 数据结构/第2章 线性表.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "第2章 线性表 的大纲"
+            }
+          },
+          {
+            "id": "cdfed0195009b3f0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "65cece39709461ef",
+  "active": "b2bc6e92483c8650",
   "lastOpenFiles": [
+    "1 数据结构/第3章 栈和队列.md",
+    "1 数据结构/第1章 绪论.md",
+    "1 数据结构/未命名.canvas",
+    "1 数据结构/未命名 1.base",
+    "1 数据结构/未命名.base",
+    "1 数据结构/第2章 线性表.md",
+    "1 数据结构/代码题总结.md",
+    "1 数据结构/大题知识点总结.md",
+    "1 数据结构/王道数据结构.pdf",
     "4 计算机网络/第3章 数据链路层.md",
-    "4 计算机网络/pictures/第1章 计算机网络 服务协议与接口之间的关系.png",
+    "1 数据结构/王道数据结构.pdf.md",
+    "所使用的插件.md",
+    "template/VisualTikZ.pdf",
+    "template/字体大小.md",
+    "template/循环创建结点.md",
+    "template/其他技巧.md",
+    "template/表格.md",
     "README.md",
+    "4 计算机网络/pictures/第1章 计算机网络 服务协议与接口之间的关系.png",
     "Obsidian---408Note.zip.baiduyun.uploading.cfg",
     "Obsidian---408Note.zip",
     "计算机.zip",
     "0 408真题/2024 王道计算机专业基础综合考试历年真题解析 1.pdf",
     "0 408真题/2024 王道计算机专业基础综合考试历年真题参考答案.pdf",
     "0 408真题/计算机考研408历年真题和答案汇编(2009-2020).pdf",
-    "0 408真题/计算机统考真题与解析.pdf",
-    "0 408真题/竟成计算机408统考真题.pdf",
     "0 408真题/2022年复盘.md",
     "4 计算机网络/思维导图/数据链路层.canvas",
-    "4 计算机网络/思维导图",
-    "4 计算机网络/图表/第6章 应用层.drawio",
     "4 计算机网络/图表/第6章 应用层-DNS域名服务器层次结构.drawio.svg",
     "4 计算机网络/图表/第5章-UDP校验.drawio.svg",
     "4 计算机网络/图表/第5章-UDP报文.drawio.svg",
@@ -194,7 +266,6 @@
     "4 计算机网络/第6章 应用层.md",
     "4 计算机网络/第5章 传输层.md",
     "4 计算机网络/第4章 网络层.md",
-    "2 计算机组成原理/计算机组成原理总结.canvas",
     "2 计算机组成原理/计算机组成原理.md",
     "2 计算机组成原理/第7章 输入输出系统.md",
     "2 计算机组成原理/第6章 总线.md",
@@ -202,16 +273,4 @@
     "2 计算机组成原理/第4章 指令系统.md",
     "2 计算机组成原理/第3章 存储系统.md",
     "2 计算机组成原理/第2章 数据的表示和运算.md",
-    "2 计算机组成原理/第1章 计算机系统概述.md",
-    "1 数据结构/补充内容/Prim算法和Dijkstra算法的区别.md",
-    "1 数据结构/第8章 排序.md",
-    "1 数据结构/第7章 查找.md",
-    "1 数据结构/第6章 图.md",
-    "1 数据结构/第5章 树与二叉树.md",
-    "1 数据结构/第4章 串.md",
-    "1 数据结构/第3章 栈和队列.md",
-    "1 数据结构/第2章 线性表.md",
-    "1 数据结构/第1章 绪论.md",
-    "1 数据结构/大题知识点总结.md"
-  ]
-}
+    "2 计算机组成原理/第1章 计算机�

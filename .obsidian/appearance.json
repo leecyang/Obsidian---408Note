@@ -4,6 +4,6 @@
   "baseFontSize": 26,
   "cssTheme": "GitHub theme",
   "translucency": false,
-  "interfaceFontFamily": "Times New Roman",
+  "interfaceFontFamily": "Times New Roman,方正仿宋_GBK",
   "monospaceFontFamily": "Source Code Pro"
 }
