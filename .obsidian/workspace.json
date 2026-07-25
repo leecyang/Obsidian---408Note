@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,11 +215,11 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "1b42f2b0c5683274",
+  "active": "7cfb474a376fbdc6",
   "lastOpenFiles": [
+    "1 数据结构/第5章 树与二叉树.md",
     "1 数据结构/第3章 栈和队列.md",
     "1 数据结构/第2章 线性表.md",
-    "1 数据结构/第5章 树与二叉树.md",
     "1 数据结构/未命名.canvas",
     "1 数据结构/未命名 1.base",
     "1 数据结构/未命名.base",
