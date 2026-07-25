@@ -32,6 +32,18 @@
               "icon": "lucide-file",
               "title": "第5章 树与二叉树"
             }
+          },
+          {
+            "id": "416d613c8e4ff332",
+            "type": "leaf",
+            "state": {
+              "type": "web-browser-view",
+              "state": {
+                "url": "https://leetcode.cn/problems/binary-tree-postorder-traversal/"
+              },
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
         "currentTab": 1
@@ -202,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
