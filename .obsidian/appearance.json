@@ -1,9 +1,10 @@
 {
   "accentColor": "",
-  "theme": "system",
+  "theme": "moonstone",
   "baseFontSize": 26,
   "cssTheme": "GitHub theme",
   "translucency": false,
   "interfaceFontFamily": "Times New Roman,方正仿宋_GBK",
-  "monospaceFontFamily": "Source Code Pro"
+  "monospaceFontFamily": "Consolas,Source Code Pro",
+  "textFontFamily": "方正仿宋_GBK"
 }
