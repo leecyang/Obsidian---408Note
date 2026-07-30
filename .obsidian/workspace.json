@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 数据结构/第6章 图.md",
+                "file": "1 数据结构/第7章 查找.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第6章 图"
+              "title": "第7章 查找"
             }
           },
           {
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 数据结构/第6章 图.md",
+                "file": "1 数据结构/第7章 查找.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第6章 图 的大纲"
+              "title": "第7章 查找 的大纲"
             }
           }
         ]
@@ -192,10 +192,10 @@
   },
   "active": "82689285e86ca2b0",
   "lastOpenFiles": [
-    "0 408真题/2021年计算机408统考真题.pdf",
-    "0 408真题/计算机统考真题与解析.pdf",
     "1 数据结构/第6章 图.md",
     "1 数据结构/第7章 查找.md",
+    "0 408真题/2021年计算机408统考真题.pdf",
+    "0 408真题/计算机统考真题与解析.pdf",
     "2 计算机组成原理/第2章 数据的表示和运算.md",
     "1 数据结构/代码题总结.md",
     "README.md"
