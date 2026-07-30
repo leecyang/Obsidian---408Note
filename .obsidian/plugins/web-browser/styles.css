@@ -86,3 +86,212 @@
   font-size: var(--font-ui-smaller);
   pointer-events: none;
 }
+
+/* Hover preview for external links in Markdown notes. */
+.web-browser-hover-link-active {
+  border-radius: 3px;
+  outline: 2px solid color-mix(in srgb, var(--interactive-accent) 55%, transparent);
+  outline-offset: 2px;
+}
+
+.web-browser-hover-preview {
+  position: fixed;
+  z-index: 10000;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  width: min(520px, calc(100vw - 24px));
+  height: min(360px, calc(100vh - 24px));
+  min-width: 320px;
+  min-height: 220px;
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vh - 24px);
+  overflow: hidden;
+  resize: both;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  background: var(--background-primary);
+  box-shadow: var(--shadow-l);
+  opacity: 0;
+  transform: translateY(4px) scale(0.992);
+  transform-origin: top left;
+  pointer-events: none;
+  transition: opacity 120ms ease, transform 120ms ease, visibility 0s linear 120ms;
+}
+
+.web-browser-hover-preview.is-visible {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+  transition: opacity 120ms ease, transform 120ms ease;
+}
+
+.web-browser-hover-preview.is-pinned {
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 1px var(--interactive-accent), var(--shadow-l);
+}
+
+.web-browser-hover-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 0 0 auto;
+  min-height: 34px;
+  padding: 3px 4px 3px 7px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  user-select: none;
+}
+
+.web-browser-hover-identity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.web-browser-hover-site-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--text-muted);
+}
+
+.web-browser-hover-site-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.web-browser-hover-labels {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.web-browser-hover-title,
+.web-browser-hover-url {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.web-browser-hover-title {
+  color: var(--text-normal);
+  font-size: var(--font-ui-smaller);
+  font-weight: var(--font-semibold);
+  line-height: 1.15;
+}
+
+.web-browser-hover-url {
+  margin-top: 0;
+  color: var(--text-faint);
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+.web-browser-hover-actions {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  flex: 0 0 auto;
+}
+
+.web-browser-hover-action {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+}
+
+.web-browser-hover-action svg {
+  width: 14px;
+  height: 14px;
+}
+
+.web-browser-hover-action.is-active {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+}
+
+.web-browser-hover-body {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #fff;
+}
+
+.web-browser-hover-frame {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #fff;
+}
+
+.web-browser-hover-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% / 0.67);
+  height: calc(100% / 0.67);
+  transform: scale(0.67);
+  transform-origin: top left;
+}
+
+.web-browser-hover-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  background: color-mix(in srgb, var(--background-primary) 88%, transparent);
+  font-size: var(--font-ui-small);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease, visibility 0s linear 120ms;
+}
+
+.web-browser-hover-loading.is-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 120ms ease;
+}
+
+.web-browser-hover-status {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 4;
+  padding: 7px 9px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  background: color-mix(in srgb, var(--background-primary) 94%, transparent);
+  font-size: var(--font-ui-smaller);
+  pointer-events: none;
+}
+
+.web-browser-hover-status.is-error {
+  border-color: var(--background-modifier-error);
+  color: var(--text-error);
+}
+
+@media (max-width: 600px), (max-height: 480px) {
+  .web-browser-hover-preview {
+    width: calc(100vw - 16px);
+    height: min(320px, calc(100vh - 16px));
+    min-width: 0;
+    min-height: 180px;
+    resize: none;
+  }
+
+  .web-browser-hover-url {
+    display: none;
+  }
+}
+

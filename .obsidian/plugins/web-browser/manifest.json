@@ -1,9 +1,9 @@
 {
   "id": "web-browser",
   "name": "Web Browser",
-  "version": "0.0.4-local.1",
+  "version": "0.0.5-local.2",
   "minAppVersion": "1.0.0",
-  "description": "Browse web pages inside Obsidian. Local compatibility build for modern Electron versions.",
+  "description": "Browse and hover-preview external web pages inside Obsidian. Local compatibility build for modern Electron versions.",
   "author": "Dion Tryban (Trikzon), compatibility patch",
   "authorUrl": "https://github.com/Trikzon",
   "isDesktopOnly": true

@@ -1,0 +1,7 @@
+.status-bar-item.reading-progress-status {
+  min-width: 3.4em;
+  justify-content: flex-end;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  cursor: default;
+}

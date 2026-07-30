@@ -1,0 +1,9 @@
+{
+  "id": "reading-progress-status",
+  "name": "Reading Progress Status",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Shows the active note's reading progress percentage in the desktop status bar while in Reading view.",
+  "author": "leecyang",
+  "isDesktopOnly": true
+}
