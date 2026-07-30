@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "leecyang/obsidian-reading-progress",
     "Darakah/obsidian-commits",
     "TfTHacker/obsidian42-text-transporter",
     "eightHundreds/obsidian-kity-mind",

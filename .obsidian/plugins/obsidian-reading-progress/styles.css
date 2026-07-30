@@ -1,0 +1,10 @@
+.status-bar-item.reading-progress-status {
+	order: 1000;
+	min-width: 3.2em;
+	justify-content: flex-end;
+	font-variant-numeric: tabular-nums;
+}
+
+.status-bar-item.reading-progress-status[hidden] {
+	display: none;
+}
