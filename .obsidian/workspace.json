@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82689285e86ca2b0",
+            "id": "3f3b95949bc5f222",
+            "type": "leaf",
+            "state": {
+              "type": "web-browser-view",
+              "state": {
+                "url": "file:///E:/408/Obsidian---408Note/1%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E8%A1%A5%E5%85%85%E5%86%85%E5%AE%B9/%E4%B8%AD%E5%BA%8F%E7%BA%BF%E7%B4%A2%E4%BA%8C%E5%8F%89%E6%A0%91_%E4%B8%89%E4%B8%AA%E7%AE%97%E6%B3%95%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%B2%E8%A7%A3.html"
+              },
+              "icon": "globe-2",
+              "title": "中序线索二叉树：三个算法可视化"
+            }
+          },
+          {
+            "id": "9fae0001dccf7ee5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,20 +32,9 @@
               "icon": "lucide-file",
               "title": "第7章 查找"
             }
-          },
-          {
-            "id": "b15e2162012c5c25",
-            "type": "leaf",
-            "state": {
-              "type": "web-browser-view",
-              "state": {
-                "url": "file:///E:/408/Obsidian---408Note/0%20408%E7%9C%9F%E9%A2%98/2021%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA408%E7%BB%9F%E8%80%83%E7%9C%9F%E9%A2%98.pdf"
-              },
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,9 +171,19 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
+          },
+          {
+            "id": "9911dc85cad716f6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,13 +198,20 @@
       "bases:新建数据库": false,
       "obsidian42-brat:BRAT": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "web-browser:打开网页浏览器": false,
+      "webpage-html-export:导出为HTML": false
     }
   },
-  "active": "82689285e86ca2b0",
+  "active": "9fae0001dccf7ee5",
   "lastOpenFiles": [
-    "1 数据结构/第6章 图.md",
+    "template/其他技巧.md",
+    "template/快速创建结点.md",
     "1 数据结构/第7章 查找.md",
+    "1 数据结构/第8章 排序.md",
+    "1 数据结构/补充内容/中序线索二叉树_三个算法可视化讲解.html",
+    "所使用的插件.md",
+    "1 数据结构/第6章 图.md",
     "0 408真题/2021年计算机408统考真题.pdf",
     "0 408真题/计算机统考真题与解析.pdf",
     "2 计算机组成原理/第2章 数据的表示和运算.md",

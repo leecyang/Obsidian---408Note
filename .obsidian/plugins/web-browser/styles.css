@@ -1,20 +1,88 @@
 .web-browser-view-content {
-    padding: 0 !important;
-    overflow: hidden !important;
+  height: 100%;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 
-.web-browser-frame {
-    width: 100%;
-    height: 100%;
-    border: none;
-    background-color: white;
-    background-clip: content-box;
+.web-browser-root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  background: var(--background-primary);
 }
 
-.web-browser-header-bar::after {
-    background: transparent !important;
+.web-browser-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 0 0 auto;
+  min-height: 42px;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+
+.web-browser-toolbar-button {
+  flex: 0 0 auto;
+}
+
+.web-browser-toolbar-button:disabled {
+  opacity: 0.35;
+  cursor: default;
 }
 
 .web-browser-search-bar {
-    width: 100%;
+  flex: 1 1 auto;
+  min-width: 80px;
+  height: 30px;
+  margin: 0 4px;
+  padding: 0 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--input-radius);
+  color: var(--text-normal);
+  background: var(--background-primary);
+}
+
+.web-browser-search-bar:focus {
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 1px var(--interactive-accent);
+}
+
+.web-browser-host {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #fff;
+}
+
+.web-browser-frame {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #fff;
+}
+
+.web-browser-iframe-fallback {
+  position: absolute;
+  inset: 0;
+}
+
+.web-browser-fallback-notice {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  padding: 8px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  background: color-mix(in srgb, var(--background-primary) 92%, transparent);
+  font-size: var(--font-ui-smaller);
+  pointer-events: none;
 }

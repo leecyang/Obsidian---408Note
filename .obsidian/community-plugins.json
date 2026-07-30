@@ -1,7 +1,6 @@
 [
   "quick-latex",
   "obsidian42-brat",
-  "web-browser",
   "tag-summary-plugin",
   "tag-wrangler",
   "callout-manager",
@@ -9,5 +8,6 @@
   "obsidian-tikzjax",
   "obsidian-paste-image-rename",
   "obsidian-regex-replace",
-  "obsidian-git"
+  "obsidian-git",
+  "web-browser"
 ]
