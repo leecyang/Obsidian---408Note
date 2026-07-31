@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 数据结构/第7章 查找.md",
+                "file": "1 数据结构/第8章 排序.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第7章 查找"
+              "title": "第8章 排序"
             }
           },
           {
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 数据结构/第7章 查找.md",
+                "file": "1 数据结构/第8章 排序.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第7章 查找 的大纲"
+              "title": "第8章 排序 的大纲"
             }
           }
         ]
@@ -203,9 +203,9 @@
   },
   "active": "b545b7a8eaaff961",
   "lastOpenFiles": [
-    "1 数据结构/第1章 绪论.md",
-    "1 数据结构/第8章 排序.md",
     "1 数据结构/第7章 查找.md",
+    "1 数据结构/第8章 排序.md",
+    "1 数据结构/第1章 绪论.md",
     "1 数据结构/第6章 图.md",
     "所使用的插件.md",
     "template/其他技巧.md",
