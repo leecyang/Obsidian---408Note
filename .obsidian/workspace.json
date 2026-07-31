@@ -124,39 +124,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fee4e7f1799605c5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "1 数据结构/第6章 图.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "第6章 图 的反向链接列表"
-            }
-          },
-          {
-            "id": "45958aef2c122577",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "1 数据结构/第6章 图.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "第6章 图 的出链列表"
-            }
-          },
-          {
             "id": "daa15e3037bb3e75",
             "type": "leaf",
             "state": {
@@ -181,8 +148,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
